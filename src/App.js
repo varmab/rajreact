@@ -6,6 +6,7 @@ import Counter from './Counter'
 import Friends from './Friends'
 import Todos from './Todos'
 import Users from './Users'
+import Library from './MyLibrary/Library'
 
 class App extends React.Component{
   render(){
@@ -15,7 +16,7 @@ class App extends React.Component{
         <header className="App-header">
           <Welcome name="Varma" year={2022} password="123456"/>
         </header>
-        <Users/>
+        <Library/>
       </div>
     );
   }
